@@ -1,0 +1,37 @@
+=> Bootstrap is a free, open-source framework that helps web developers 
+    create websites and web apps more quickly and efficiently
+
+=>Bootstrap provides developers with a suite of HTML, CSS, and JavaScript files that 
+    contain reusable page elements, styles, and interactions. 
+    This means that building a website is much faster using Bootstrap than designing and coding 
+    common UI elements from scratch.
+
+=>Bootstrap provides us with many predefined class names. Some of them are:
+card
+carousel
+alert
+alert-success
+alert-link
+bg-danger
+card-body and many more...
+You can find the list of class names provided by the bootstrap 
+"https://hackerthemes.com/bootstrap-cheatsheet/"
+
+=>About Flex:
+1.The Bootstrap class name "d-flex" defines a Flexbox Container. 
+The direct HTML elements in the Flexbox Container are called flex items.
+2.The Bootstrap class name "flex-row" is used to move the flex items horizontally 
+in the Flexbox Container.
+3.The Bootstrap class name "flex-column"is used to move 
+the flex items vertically in the Flexbox Container.
+
+=>About Justify-content:
+1.The Justify Content specifies the alignment of flex items along the Flex Direction
+ in a Flexbox Container.
+2.Bootstrap class name "justify-content-start" is used to align the flex items to the start
+3.Bootstrap class name "justify-content-end" is used to align the flex items to the end
+4.Bootstrap class name "justify-content-center" is used to align the flex items to the center
+5.Bootstrap class name "justify-content-between" is used to align the flex items evenly
+6.Bootstrap class name "justify-content-around" is used to align the flex items evenly around the
+container.
+

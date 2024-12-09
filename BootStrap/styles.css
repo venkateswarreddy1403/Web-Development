@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.box-orange {
+    background-color: orange;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-container {
+    width: 100vw;
+    height: 100vh;
+}
