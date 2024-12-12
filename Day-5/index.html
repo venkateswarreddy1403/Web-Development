@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Information Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Student Information Survey</h1>
+        <p id="description">Collective the student data for providing the opportunities </p>
+    </header>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <br>
+
+        <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter your email"
+                required> </label>
+        <br>
+
+        <label for="number" id="number-label">Age<input type="number" id="number" placeholder="Enter your age" min="10"
+                max="99"> </label>
+        <br>
+
+        <label>Which department you belongs to?
+            <select id="dropdown">
+                <option>Select your branch</option>
+                <option>Computer Science</option>
+                <option>Electrical Department</option>
+                <option>Bio-Tech</option>
+                <option>Food Technology</option>
+                <option>Other</option>
+            </select>
+        </label>
+        <br>
+
+        <label>What is your Gender?</label>
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label> <br>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br>
+
+        <label>Items that you always carry?</label><br>
+        <input type="checkbox" id="item1" value="laptop"><label for="item1">Laptop</label>
+        <input type="checkbox" id="item2" value="mobile"><label for="item2">Mobile</label>
+        <input type="checkbox" id="item3" value="bag"><label for="item3">Bag</label>
+
+        <label>Tell me about yourself?</label><br>
+        <textarea placeholder="Describe yourself here..." rows="3" cols="20"></textarea>
+        <br>
+        <input type="submit" id="submit">
+    </form>
+
+</body>
+
+</html>
